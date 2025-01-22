@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:Library-Membership-{####}",
+ "autoname": "format:Library-Membership-{##}",
  "creation": "2025-01-14 17:53:35.943636",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -10,6 +10,7 @@
   "full_name",
   "from_date",
   "to_date",
+  "is_active",
   "paid"
  ],
  "fields": [
@@ -40,11 +41,17 @@
    "fieldtype": "Link",
    "label": "Library Member",
    "options": "Library Member"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is active"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-14 17:55:39.874302",
+ "modified": "2025-01-22 11:24:00.308738",
  "modified_by": "Administrator",
  "module": "Library Managment",
  "name": "Library Membership",

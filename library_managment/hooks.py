@@ -4,6 +4,7 @@ app_publisher = "lijsamuael@gmail.com"
 app_description = "A Library managment app"
 app_email = "devssinia@gmail.com"
 app_license = "mit"
+fixtures = ["Property Setter"]
 
 # Apps
 # ------------------
